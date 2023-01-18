@@ -5,9 +5,14 @@
 # Local .terraform directories
 **/.terraform/*
 
+# Local terraform lock file
+*.terraform.lock.hcl
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+# Ignore lock file for small projects
 
 # Crash log files
 crash.log
